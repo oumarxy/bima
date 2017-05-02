@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5254997-88ea-4f43-8214-bc1b6be0201b" name="Default" comment="" />
+    <list default="true" id="f5254997-88ea-4f43-8214-bc1b6be0201b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/report/controllers/report.php" afterPath="$PROJECT_DIR$/application/modules/report/controllers/report.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/report/views/claim/option_form.php" afterPath="$PROJECT_DIR$/application/modules/report/views/claim/option_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/report/views/premium_collection/preview.php" afterPath="$PROJECT_DIR$/application/modules/report/views/premium_collection/preview.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/site/views/site.php" afterPath="$PROJECT_DIR$/application/modules/site/views/site.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/footer.php" afterPath="$PROJECT_DIR$/application/views/footer.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +22,11 @@
       <file leaf-file-name="site.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/site/views/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="89">
+              <caret line="65" column="102" lean-forward="false" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+              <folding>
+                <marker date="1493727526185" expanded="true" signature="1813:1945" ph="select count... insurance" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -25,29 +34,200 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-237">
-              <caret line="73" column="44" lean-forward="false" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+            <state relative-caret-position="288">
+              <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
               <folding>
-                <marker date="1490678164457" expanded="true" signature="2425:2820" ph="select FROM_... " />
-                <marker date="1490678164457" expanded="true" signature="3311:3732" ph="select FROM_... " />
-                <marker date="1490678164457" expanded="true" signature="7046:7089" ph="..." />
-                <marker date="1490678164457" expanded="true" signature="10450:10493" ph="..." />
+                <marker date="1493729722010" expanded="true" signature="2428:2849" ph="select FROM_... " />
+                <marker date="1493729722010" expanded="true" signature="3401:3796" ph="select FROM_... " />
+                <marker date="1493729722010" expanded="true" signature="7039:7082" ph="..." />
+                <marker date="1493729722010" expanded="true" signature="10443:10486" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="option_form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/report/views/claim/option_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="report.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/report/controllers/report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="146" column="41" lean-forward="false" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
+              <folding>
+                <marker date="1493732990007" expanded="true" signature="4599:4613" ph="select * fro... ${Modules::run('claim/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="8838:8852" ph="select * fro... ${Modules::run('claim/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="9289:9639" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="9304:9401" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="9421:9511" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="9545:9631" ph="{...}" />
+                <marker date="1493732990007" expanded="false" signature="9653:9676" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="9735:9758" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="9817:9842" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="9843:10330" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="9849:10330" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="9909:10330" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="9936:10330" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="11167:11806" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="12175:12535" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="12214:12239" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="12285:12310" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="12386:12411" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="12492:12517" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="12519:12525" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="14704:14718" ph="select * fro... ${Modules::run('claim/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="30118:30132" ph="select * fro... ${Modules::run('insurance/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="35397:35411" ph="select * fro... ${Modules::run('insurance/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="35859:36209" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="35874:35971" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="35991:36081" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="36115:36201" ph="{...}" />
+                <marker date="1493732990007" expanded="false" signature="36223:36246" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="36329:36352" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="36411:36436" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="36437:36697" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="36443:36697" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="36503:36697" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="36530:36697" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="36543:36554" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="38376:38597" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="39024:39030" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="39030:39036" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39166:39172" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39172:39178" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="39264:39270" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="39270:39276" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39399:39405" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39405:39411" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39513:39519" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39519:39525" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="39731:40491" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="39785:39810" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="39855:39880" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="39926:39932" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="39932:39938" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="39938:39944" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="39975:40000" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="40042:40048" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40048:40054" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40054:40060" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40091:40116" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="40182:40188" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40188:40194" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40194:40200" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40235:40260" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="40303:40309" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40309:40315" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40315:40321" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40352:40377" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="40464:40470" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40470:40476" ph=" " />
+                <marker date="1493732990007" expanded="false" signature="40476:40482" ph=" " />
+                <marker date="1493732990007" expanded="true" signature="43239:43253" ph="select * fro... ${Modules::run('insurance/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="59959:59973" ph="select * fro... ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="63229:63243" ph="select * fro... ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="76803:76817" ph="select * fro... ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="77227:77577" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="77242:77339" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="77359:77449" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="77483:77569" ph="{...}" />
+                <marker date="1493732990007" expanded="false" signature="77590:77613" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="77676:77699" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="77760:77785" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="77786:77995" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="77792:77995" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="77858:77995" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="77887:77995" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="77902:77913" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="79326:79453" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="80250:80915" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="80310:80335" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="80384:80409" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="80495:80520" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="80590:80615" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="80692:80717" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="80823:80848" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="84729:84816" ph="select sum( ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="99053:99175" ph="select * fro... ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="102330:102451" ph="select * fro... ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="114615:114736" ph="select * fro... ${Modules::run('payment/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="115102:115452" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="115117:115214" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="115234:115324" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="115358:115444" ph="{...}" />
+                <marker date="1493732990007" expanded="false" signature="115466:115489" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="115561:115584" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="115643:115668" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="115669:116115" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="115675:116115" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="115735:116115" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="115762:116115" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="117128:117595" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="117914:118320" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="117968:117993" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="118039:118064" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="118134:118159" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="118233:118258" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="118388:118413" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="121517:121531" ph="select * fro... ${Modules::run('bank_transaction/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="125420:125434" ph="select * fro... ${Modules::run('bank_transaction/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="138499:138513" ph="select * fro... ${Modules::run('bank_transaction/get_table')}" />
+                <marker date="1493732990007" expanded="true" signature="138980:139330" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="138995:139092" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="139112:139202" ph="{...}" />
+                <marker date="1493732990007" expanded="true" signature="139236:139322" ph="{...}" />
+                <marker date="1493732990007" expanded="false" signature="139344:139367" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="139474:139497" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="139579:139604" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="139605:139723" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="139611:139723" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="139671:139723" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="139698:139723" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="140697:140734" ph="..." />
+                <marker date="1493732990007" expanded="true" signature="141854:142230" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="141908:141933" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="141979:142004" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="142073:142098" ph="..." />
+                <marker date="1493732990007" expanded="false" signature="142168:142193" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preview.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/report/views/premium_collection/preview.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>premium_collection</find>
+      <find>claim_preview</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +236,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/application/modules/report/views/premium_collection/preview.php" />
+        <option value="$PROJECT_DIR$/application/modules/site/views/site.php" />
+        <option value="$PROJECT_DIR$/application/views/footer.php" />
+        <option value="$PROJECT_DIR$/application/modules/report/views/claim/option_form.php" />
+        <option value="$PROJECT_DIR$/application/modules/report/controllers/report.php" />
       </list>
     </option>
   </component>
@@ -130,6 +315,32 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -149,6 +360,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premium_collection" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="claim" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ibms" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,6 +446,69 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -181,34 +519,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493716275211</updated>
-      <workItem from="1493716278361" duration="2343000" />
+      <workItem from="1493716278361" duration="9367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2343000" />
+    <option name="totallyTimeSpent" value="9367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1368" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,32 +560,193 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/site/views/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="89">
+          <caret line="65" column="102" lean-forward="false" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+          <folding>
+            <marker date="1493727526185" expanded="true" signature="1813:1945" ph="select count... insurance" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237">
-          <caret line="73" column="44" lean-forward="false" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        <state relative-caret-position="288">
+          <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
           <folding>
-            <marker date="1490678164457" expanded="true" signature="2425:2820" ph="select FROM_... " />
-            <marker date="1490678164457" expanded="true" signature="3311:3732" ph="select FROM_... " />
-            <marker date="1490678164457" expanded="true" signature="7046:7089" ph="..." />
-            <marker date="1490678164457" expanded="true" signature="10450:10493" ph="..." />
+            <marker date="1493729722010" expanded="true" signature="2428:2849" ph="select FROM_... " />
+            <marker date="1493729722010" expanded="true" signature="3401:3796" ph="select FROM_... " />
+            <marker date="1493729722010" expanded="true" signature="7039:7082" ph="..." />
+            <marker date="1493729722010" expanded="true" signature="10443:10486" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/application/modules/report/views/claim/option_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="19" column="49" lean-forward="false" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/report/views/premium_collection/preview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="41" column="87" lean-forward="true" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/report/controllers/report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="146" column="41" lean-forward="false" selection-start-line="146" selection-start-column="41" selection-end-line="146" selection-end-column="41" />
+          <folding>
+            <marker date="1493732990007" expanded="true" signature="4599:4613" ph="select * fro... ${Modules::run('claim/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="8838:8852" ph="select * fro... ${Modules::run('claim/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="9289:9639" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="9304:9401" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="9421:9511" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="9545:9631" ph="{...}" />
+            <marker date="1493732990007" expanded="false" signature="9653:9676" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="9735:9758" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="9817:9842" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="9843:10330" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="9849:10330" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="9909:10330" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="9936:10330" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="11167:11806" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="12175:12535" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="12214:12239" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="12285:12310" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="12386:12411" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="12492:12517" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="12519:12525" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="14704:14718" ph="select * fro... ${Modules::run('claim/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="30118:30132" ph="select * fro... ${Modules::run('insurance/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="35397:35411" ph="select * fro... ${Modules::run('insurance/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="35859:36209" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="35874:35971" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="35991:36081" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="36115:36201" ph="{...}" />
+            <marker date="1493732990007" expanded="false" signature="36223:36246" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="36329:36352" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="36411:36436" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="36437:36697" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="36443:36697" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="36503:36697" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="36530:36697" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="36543:36554" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="38376:38597" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="39024:39030" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="39030:39036" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39166:39172" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39172:39178" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="39264:39270" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="39270:39276" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39399:39405" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39405:39411" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39513:39519" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39519:39525" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="39731:40491" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="39785:39810" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="39855:39880" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="39926:39932" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="39932:39938" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="39938:39944" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="39975:40000" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="40042:40048" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40048:40054" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40054:40060" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40091:40116" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="40182:40188" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40188:40194" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40194:40200" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40235:40260" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="40303:40309" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40309:40315" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40315:40321" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40352:40377" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="40464:40470" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40470:40476" ph=" " />
+            <marker date="1493732990007" expanded="false" signature="40476:40482" ph=" " />
+            <marker date="1493732990007" expanded="true" signature="43239:43253" ph="select * fro... ${Modules::run('insurance/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="59959:59973" ph="select * fro... ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="63229:63243" ph="select * fro... ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="76803:76817" ph="select * fro... ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="77227:77577" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="77242:77339" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="77359:77449" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="77483:77569" ph="{...}" />
+            <marker date="1493732990007" expanded="false" signature="77590:77613" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="77676:77699" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="77760:77785" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="77786:77995" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="77792:77995" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="77858:77995" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="77887:77995" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="77902:77913" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="79326:79453" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="80250:80915" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="80310:80335" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="80384:80409" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="80495:80520" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="80590:80615" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="80692:80717" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="80823:80848" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="84729:84816" ph="select sum( ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="99053:99175" ph="select * fro... ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="102330:102451" ph="select * fro... ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="114615:114736" ph="select * fro... ${Modules::run('payment/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="115102:115452" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="115117:115214" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="115234:115324" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="115358:115444" ph="{...}" />
+            <marker date="1493732990007" expanded="false" signature="115466:115489" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="115561:115584" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="115643:115668" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="115669:116115" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="115675:116115" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="115735:116115" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="115762:116115" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="117128:117595" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="117914:118320" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="117968:117993" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="118039:118064" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="118134:118159" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="118233:118258" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="118388:118413" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="121517:121531" ph="select * fro... ${Modules::run('bank_transaction/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="125420:125434" ph="select * fro... ${Modules::run('bank_transaction/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="138499:138513" ph="select * fro... ${Modules::run('bank_transaction/get_table')}" />
+            <marker date="1493732990007" expanded="true" signature="138980:139330" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="138995:139092" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="139112:139202" ph="{...}" />
+            <marker date="1493732990007" expanded="true" signature="139236:139322" ph="{...}" />
+            <marker date="1493732990007" expanded="false" signature="139344:139367" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="139474:139497" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="139579:139604" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="139605:139723" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="139611:139723" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="139671:139723" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="139698:139723" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="140697:140734" ph="..." />
+            <marker date="1493732990007" expanded="true" signature="141854:142230" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="141908:141933" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="141979:142004" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="142073:142098" ph="..." />
+            <marker date="1493732990007" expanded="false" signature="142168:142193" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

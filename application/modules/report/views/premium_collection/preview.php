@@ -39,7 +39,7 @@
                             <td><?php echo $insurance->cover_note; ?></td>
                             <td><?php echo number_format($payment->amount); ?></td>
                             <td><?php echo number_format($commission); ?></td>
-                            <td><?php echo number_format($payment->amount - $commission + $vat); ?></td>
+                            <td><?php echo number_format($payment->amount - $commission); ?></td>
                             <?php if ($this->input->post('insurer') == '') { ?>
                             
                                 <td><?php echo Modules::run('insurer/get_where_custom', array('id_insurer' => $insurance->id_insurer, 'id_domain' => $this->ion_auth->get_id_domain()))->row()->name; ?></td>

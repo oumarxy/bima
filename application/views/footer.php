@@ -60,36 +60,37 @@
 <?php if (trim($level1url) == 'site') { ?>
 
 <?php
-$year=date('Y')-1;
+$year=date('Y');
 $last_year=$year-1;
-$sql = "select FROM_UNIXTIME( insurance.comm_on,'%M') as month,sum(insurance.premium) as premium,sum(insurance.vat) as vat,
-   sum(insurance.commission) as commission from
-   insurance  where FROM_UNIXTIME(insurance.comm_on,'%Y') = '$year'  and insurance.paid=1  and insurance.id_domain=".$this->ion_auth->get_id_domain()."
-   group by (FROM_UNIXTIME( insurance.comm_on,'%M')) order by insurance.comm_on";
-       $insurances = Modules::run('insurance/_custom_query', $sql)->result_array();
-       $month_data=array();
-       $premium_data=array();
-       $vat_data=array();
-       $commission_data=array();
-       foreach ($insurances as $insurance) {
-         $total=$insurance['premium']+$insurance['vat'];
-         array_push($month_data,$insurance['month']);
-         array_push($premium_data,$total);
-         array_push($commission_data,$insurance['commission']);
-       }
 
-      $sql = "select FROM_UNIXTIME( insurance.comm_on,'%M') as month,sum(insurance.premium) as premium,sum(insurance.vat) as vat,
+    $sql = "select FROM_UNIXTIME( insurance.comm_on,'%M') as month,sum(insurance.premium) as premium,sum(insurance.vat) as vat,
           sum(insurance.commission) as commission from
           insurance  where FROM_UNIXTIME(insurance.comm_on,'%Y') = '$last_year'  and insurance.paid=1  and insurance.id_domain=".$this->ion_auth->get_id_domain()."
           group by (FROM_UNIXTIME( insurance.comm_on,'%M')) order by insurance.comm_on";
               $insurances = Modules::run('insurance/_custom_query', $sql)->result_array();
+              $month_data=array();
               $last_premium_data=array();
               $last_commission_data=array();
               foreach ($insurances as $insurance) {
                 $total=$insurance['premium']+$insurance['vat'];
+                array_push($month_data,$insurance['month']);
                 array_push($last_premium_data,$total);
                 array_push($last_commission_data,$insurance['commission']);
               }
+
+   $sql = "select FROM_UNIXTIME( insurance.comm_on,'%M') as month,sum(insurance.premium) as premium,sum(insurance.vat) as vat,
+   sum(insurance.commission) as commission from
+   insurance  where FROM_UNIXTIME(insurance.comm_on,'%Y') = '$year'  and insurance.paid=1  and insurance.id_domain=".$this->ion_auth->get_id_domain()."
+   group by (FROM_UNIXTIME( insurance.comm_on,'%M')) order by insurance.comm_on";
+    $insurances = Modules::run('insurance/_custom_query', $sql)->result_array();
+    $premium_data=array();
+    $vat_data=array();
+    $commission_data=array();
+    foreach ($insurances as $insurance) {
+        $total=$insurance['premium']+$insurance['vat'];
+        array_push($premium_data,$total);
+        array_push($commission_data,$insurance['commission']);
+    }
 
      ?>
 

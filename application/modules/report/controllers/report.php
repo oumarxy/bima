@@ -30,6 +30,7 @@ class Report extends MX_Controller {
             $load_report = FALSE;
 
             $this->form_validation->set_rules('date_range', 'Reported', 'trim|xss_clean');
+            $this->form_validation->set_rules('damage_date', 'Damaged', 'trim|xss_clean');
             $this->form_validation->set_rules('type', 'Type', 'trim|xss_clean');
             $this->form_validation->set_rules('remark', 'Remark', 'trim|xss_clean');
 
@@ -40,6 +41,8 @@ class Report extends MX_Controller {
                 $title_2 = '';
                 $from_date = '';
                 $to_date = '';
+                $damage_from_date = '';
+                $damage_to_date = '';
                 $date_range = $this->input->post('date_range');
                 if ($date_range <> '') {
                     $date_range_array = explode('-', $date_range);
@@ -50,20 +53,42 @@ class Report extends MX_Controller {
                     }
                 }
 
+                $damage_date = $this->input->post('damage_date');
+                if ($damage_date <> '') {
+                    $damage_date_array = explode('-', $damage_date);
+                    if (count($damage_date_array) > 0) {
+                        $damage_from_date = $damage_date_array[0];
+                        $damage_to_date = $damage_date_array[1];
+                        $where_clause.=" (lost_on between  " . date_to_int_string($damage_from_date) . " and " . date_to_int_string($damage_to_date) . ") and ";
+                    }
+                }
+
                 $claim_type = $this->input->post('claim_type');
                 $remark = $this->input->post('remark');
                 $data['from_date'] = $from_date;
                 $data['to_date'] = $to_date;
+
+                $data['damage_from_date'] = $damage_from_date;
+                $data['damage_to_date'] = $damage_to_date;
                 $data['claim_type'] = $claim_type;
                 $data['remark'] = $remark;
 
                 if ($from_date != '') {
 
-                    $title.= 'FROM ' . $from_date . ', ';
+                    $title.= 'Reported FROM ' . $from_date ;
                 }
                 if ($to_date != '') {
                     $title.= ' TO ' . $to_date . ', ';
                 }
+
+                if ($damage_from_date != '') {
+
+                    $title.= 'Damaged FROM ' . $damage_from_date ;
+                }
+                if ($damage_to_date != '') {
+                    $title.= ' TO ' . $damage_to_date . ', ';
+                }
+
 
                 if ($claim_type != '') {
                     $title_2.=" " . strtoupper(claim_type_by_id($claim_type)) . ",";
@@ -106,7 +131,7 @@ class Report extends MX_Controller {
             }
 
             if ($load_report == FALSE) {
-// display registration form
+             // display registration form
                 $data['date_range'] = array(
                     'type' => 'text',
                     'name' => 'date_range',
@@ -114,6 +139,15 @@ class Report extends MX_Controller {
                     //'class' => 'form-control pull-right',
                     'size' => '25',
                     'value' => $this->form_validation->set_value('date_range')
+                );
+
+                $data['damage_date'] = array(
+                    'type' => 'text',
+                    'name' => 'damage_date',
+                    'id' => 'reservation1',
+                    //'class' => 'form-control pull-right',
+                    'size' => '25',
+                    'value' => $this->form_validation->set_value('damage_date')
                 );
 
                 $data['type'] = $this->form_validation->set_value('type');
@@ -2294,7 +2328,7 @@ border-top:0px solid #4B4B4B;
                 if ($id_insurer <> '') {
                     $insurer=Modules::run('insurer/get_where_custom', array('id_insurer' => $id_insurer, 'id_domain' => $this->ion_auth->get_id_domain()))->row();
                     $title.= 'FROM ' . insurer_by_id($id_insurer) . ', ';
-                    $where_clause.=" id_insurance in (select id_insurance from insurance where id_insurer=$id_insurer) and ";
+                    $where_clause.=" payment.id_insurance in (select insurance.id_insurance from insurance where insurance.id_insurer=$id_insurer) and ";
                 }
                 $where_clause.=" payment.status=1 and payment.id_domain=" . $this->ion_auth->get_id_domain()." and insurance.paid=1";
 
@@ -2362,7 +2396,7 @@ border-top:0px solid #4B4B4B;
 
         if ($id_insurer != '') {
             $title.= 'FROM ' . insurer_by_id($id_insurer) . ', ';
-            $where_clause.=" id_insurance in (select id_insurance from insurance where id_insurer=$id_insurer) and ";
+            $where_clause.=" payment.id_insurance in (select insurance.id_insurance from insurance where insurance.id_insurer=$id_insurer) and ";
         }
 
         if ($from_date <> '' && $to_date <> '') {
@@ -2674,7 +2708,7 @@ border-top:0px solid #4B4B4B;
 
         if ($id_insurer <> '') {
             $title.= 'FROM ' . insurer_by_id($id_insurer) . ', ';
-            $where_clause.=" id_insurance in (select id_insurance from insurance where id_insurer=$id_insurer) and ";
+            $where_clause.=" payment.id_insurance in (select payment.id_insurance from insurance where id_insurer=$id_insurer) and ";
         }
 
         if ($from_date <> '' && $to_date <> '') {

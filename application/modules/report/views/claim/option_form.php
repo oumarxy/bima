@@ -9,10 +9,16 @@
             </div> 
 
             <div class="form-group">
-                <label for="inputDaterange" class="col-sm-4 control-label">Reported: </label>
+                <label for="inputDaterange" class="col-sm-4 control-label">Reported on: </label>
                 <div class="col-sm-8">
                     <?php echo form_input($date_range); ?></div>
-            </div>    
+            </div>
+
+            <div class="form-group">
+                <label for="inputDaterange" class="col-sm-4 control-label">Damaged on: </label>
+                <div class="col-sm-8">
+                    <?php echo form_input($damage_date); ?></div>
+            </div>
 
             <div class="form-group">
                 <label for="inputClaimtype" class="col-sm-4 control-label"> Type: </label>
