@@ -1,0 +1,325 @@
+
+	html{
+		height:100%;
+	}
+	body{	
+		height:100%;
+                width:100%;
+		margin:auto;
+		padding:0px;
+		background-color: #E0E0E0;
+	}
+	
+	body #outer{
+	width:1300px;
+	height:auto;
+	background-color:#FFFFFF;
+	margin: 0px 50px 0px 50px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+	
+	}
+	
+	.ad{
+		margin-top:120px;
+	}
+	
+	h1{
+		font-size:0.9em;
+	}
+
+	a{
+		color: black;
+		text-decoration: underline;
+	}
+	a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+	color: red;
+	
+	}
+	
+	#header{
+	
+	margin: -1px 0px 0px 0px;
+	padding: 0px;
+	height: 80px;
+	border-bottom: 1px solid #D6E0F9;
+	}
+	#header div#content{
+	height:80px;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-image:url('images/header_bg.gif');
+	border-bottom:2px solid gray;
+	}
+
+#left-info{
+	float: left;
+	width: 700px;
+	border: 0px;
+	}
+	
+	#right-info{
+	float: left;
+	color: brown;
+	}
+	#header a{
+	color:brown;
+	}
+	#header a:hover{
+	color:red;
+	}
+.clear{
+	clear: both;
+	}
+	/* Entire pane #7190e0/#D8D8D8*/
+	
+	#dhtmlgoodies_xpPane{
+		background-color:#7190e0;
+		float:left;
+		height:1200px;
+		width:200px;
+	}
+	#dhtmlgoodies_xpPane .dhtmlgoodies_panel{
+		margin-left:10px;
+		margin-right:10px;
+		margin-top:10px;	
+	}
+	#dhtmlgoodies_xpPane .panelContent{
+		font-size:12px;
+		/*background-image:url('images/bg_pane_right.gif');*/
+		background-color:#EFF2F9;
+		background-position:top right;
+		background-repeat:repeat-y;
+		border-left:1px solid #FFF;
+		border-bottom:1px solid #FFF;	
+		padding-left:2px;
+		padding-right:2px;	
+		overflow:hidden;
+		position:relative;
+		clear:both;
+	}
+	#dhtmlgoodies_xpPane .panelContent div{
+		position:relative;
+	}
+	#dhtmlgoodies_xpPane .dhtmlgoodies_panel .topBar{
+		background-image:url('images/bg_panel_top_right.gif');
+		background-repeat:no-repeat;
+		background-position:top right;
+		height:25px;
+		padding-right:5px;
+		cursor:pointer;
+		overflow:hidden;
+	
+	}
+	#dhtmlgoodies_xpPane .dhtmlgoodies_panel .topBar span{
+		line-height:25px;
+		vertical-align:middle;
+		font-family:arial;
+		font-size:12px;
+		color:#215DC6;
+		font-weight:bold;
+		float:left;
+		padding-left:5px;
+	}
+	#dhtmlgoodies_xpPane .dhtmlgoodies_panel .topBar img{
+		float:right;
+		cursor:pointer;
+	}
+	
+	.dhtmlgoodies_panel a{
+	display: block;
+	padding-top: 10px;
+	}
+	
+	#otherContent{	/* Normal text content */
+		float:left;	/* Firefox - to avoid blank white space above panel */
+		padding-left:10px;	/* A little space at the left */
+		padding-top:10px;
+		padding-bottom:  50px;
+	
+                font-size:12px;	
+	}
+	
+	#infoMessage{
+	color:red;
+	}
+	
+	/*
+	Format display data
+	*/	
+	
+	.display_data{
+	width: 1000px;
+	border-top:1px solid blue;
+	border-left:1px solid blue;
+	}
+	
+	.display_data tr{
+	
+	}
+	.display_data tr th{
+	border-right: 1px solid blue;
+	border-bottom: 1px solid blue; 
+	text-align: left;
+	padding-left: 5px;
+	background: url("images/bgh.gif") repeat-x right bottom; background-color: #ffffff; border: 1px solid #688caf; padding:4px; padding-right: 5px; padding-left: 5px; font-weight: bold; font-size: 13px; color: #333333;
+	}
+	.display_data tr td{
+	border-right: 1px solid blue;
+	border-bottom: 1px solid blue;
+	padding-left: 5px; 
+	text-align: left;
+	
+	}
+	.message{
+	color:green;
+	}
+	.display_data a{
+	
+      color:blue;
+		}	
+	/*format display of form*/
+	
+
+  .message{
+	width: 100%;
+	border:1px solid brown;
+	padding:3px 0px 3px 10px;
+	background-color: #FBE6F2;
+	}	
+	
+	
+  .form tr td input[type="text"],input[type="password"],select,textarea {
+	  width: 250px;
+	  border: 1px solid gray;
+	  padding: 5px 0px 5px 0px;
+	}
+	
+	.form tr td textarea{
+	height: 60px;
+	}
+	.form tr td select{
+	  width: 250px;
+	  border: 1px solid gray;
+	  padding: 5px 0px 5px 0px;
+	}
+	
+	.error{
+	color:red;
+	width: auto;
+	font-family: aerial;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+ .layout {
+  position:relative;
+  display:block;
+  margin:0;
+  padding:0;
+  border: 0px solid #CCC;
+  overflow:visible;
+  float:left;
+  width:980px;
+}
+
+.content_display{
+	margin: 20px;
+	}
+	
+	div.content_display table.view_display{
+ width: 950px;
+ border-top: 2px solid blue;
+  border-left: 2px solid blue;
+  border-right: 1px solid blue;
+  border-bottom: 1px solid blue;
+  	
+}
+div.content_display table.view_display tr.header th{
+	text-align: left;
+	background-image: url("images/header_bg.gif");
+	height: 30px;
+	font-weight: normal;
+	border-right: 1px solid blue;
+	border-bottom: 1px solid blue;
+	}
+	
+	div.content_display table.view_display tr td{
+	text-align: left;
+	border-right: 1px solid blue;
+	border-bottom: 1px solid blue;
+	}
+	
+	div.content_display table.view_display tr.odd td{
+	background-color:yellow;
+	}
+	
+	.customer_data{
+	border: 1px solid #CCCCCC;
+	width:400px;
+	}
+	
+	.customer_data tr td{
+	text-align: left;
+	border: 1px solid #CCCCCC;
+	
+	}
+	
+	.customer_data tr td.label{
+	width:200px;
+	
+	}
+	
+	table.s_form{
+	width:400px;
+	border:1px solid #CCCCCC;
+	background-color: #F8F8F8;
+	}
+	
+	table.s_form tr{
+	height: 30px;
+	}
+	
+	table.s_form tr td{
+	padding-left: 10px;
+	}
+	
+	table.s_form tr td input{
+	  width:200px;
+	}
+	table.s_form tr td select{
+	  width:200px;
+	}
+	
+	form table tr td span{
+	color:red;
+	}
+        
+        .loan_table{
+            width: 950px;
+             border-collapse:collapse;
+        }
+        
+        .loan_table tr td{
+               border:1px solid green;
+               vertical-align:bottom;
+               padding: 1px 1px 0px 1px;
+        }
+        
+        .loan_table tr.header_report{
+           
+        }
+        .loan_table tr.header_report td{
+         height: 30px;
+         background-color: #CCCCCC;
+         border-bottom: 2px;
+        }
+        
+        .even_tr{
+            background-color: #EAF2D3;
+        }
